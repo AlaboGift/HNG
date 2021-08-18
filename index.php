@@ -188,7 +188,7 @@ $alert = new alert();
 <div class="timeline">
 <div class="timeline-card timeline-card-success card shadow-sm">
 <div class="card-body">
-<div class="h5 mb-1"><img src="images/ss.jpg"></div>
+<a class="h5 mb-1" href="https://internship.zuri.team"><img src="images/ss.jpg"></a>
 <div class="text-muted text-small mb-2">2021</div>
 <div>Virtual Internship</div>
 </div>
