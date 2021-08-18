@@ -3,7 +3,7 @@ require_once('alert.php');
 require_once('mail.php');
 $alert = new alert();
 $mail = new mail();
-$burl = 'http://localhost/hngi8/';
+$burl = 'https://alabogift.herokuapp.com';
 $error = 1;
 $error_msg = 0;
 if($_POST['name']==""){
