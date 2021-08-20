@@ -271,8 +271,7 @@ $alert = new alert();
 </div>
 </div>
 <div class="text-small">
-<div class="mb-1">&copy; Right Resume. All rights reserved.</div>
-<div>Design - <a href="#" target="_blank">TemplateFlip</a></div>
+<div class="mb-1">&copy; <?=date('Y')?></div>
 </div>
 </div>
 </footer>
