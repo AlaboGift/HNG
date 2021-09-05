@@ -33,14 +33,16 @@ $alert = new alert();
 <header class="d-print-none">
 <div class="container text-center text-lg-left">
 <div class="py-3 clearfix">
-<h1 class="site-title mb-0">Alabo Gift Thomson</h1>
-<div class="site-nav">
+
+<div class="site-nav mr-2">
 <nav role="navigation">
 <ul class="nav justify-content-center">
-<li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/alabo-gift-b60baa170/" title="Linkedin"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a>
+<li class="nav-item"><a class="nav-link" href="#about" >About</a>
 </li>
 
-<li class="nav-item"><a class="nav-link" href="https://www.github.com/AlaboGift" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+<li class="nav-item"><a class="nav-link" href="#experience">Experience</a>
+</li>
+<li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a>
 </li>
 </ul>
 </nav>
@@ -58,25 +60,19 @@ $alert = new alert();
 </div>
 <div class="col-lg-8 col-md-7 text-center text-md-start">
 <h2 class="h1 mt-2" data-aos="fade-left" data-aos-delay="0">Alabo Gift Thomson</h2>
-<p data-aos="fade-left" data-aos-delay="100">Back End Developer</p>
-<div class="d-print-none" data-aos="fade-left" data-aos-delay="200"><a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="Gift_Alabo.DOCX" target="_blank">Download CV</a><a class="btn btn-success shadow-sm mt-1" href="#contact">Hire Me</a></div>
+<p data-aos="fade-left" data-aos-delay="100">Software Engineer</p>
+<div class="d-print-none" data-aos="fade-left" data-aos-delay="200"><a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="Gift_Alabo.pdf" target="_blank">Download CV</a><a class="btn btn-success shadow-sm mt-1" href="#contact">Hire Me</a></div>
 </div>
 </div>
 </div>
-<div class="about-section pt-4 px-3 px-lg-4 mt-1">
-<div class="row">
-<div class="col-md-6">
+<div class="about-section pt-4 px-3 px-lg-4 mt-1" >
+<div class="row" id="about">
+<div class="col-md-12">
 <h2 class="h3 mb-3">About Me</h2>
-<p>Hello! I’m Alabo Gift Thomson, I am a Back End Developer and an Intern at HNGi8</p>
+<p>Performance-driven and motivated Full Stack Developer with 5+ years of extensive experience as Full Stack web developer with solid understanding of front - end technologies, MVC frameworks, Restful web services and Data Base designing.Proven history of developing useful, efficient and cost-effective projects as well as a complex problem-solver with analytical and driven mindset. Expertise in using React.js/Redux to build User Interface, strong knowledge of state store, middleware, action creator, reducer and container.</p>
 </div>
-<div class="col-md-5 offset-md-1">
+<div class="col-md-12">
 <div class="row mt-2">
-<div class="col-sm-4">
-<div class="pb-1">Age</div>
-</div>
-<div class="col-sm-8">
-<div class="pb-1 text-secondary">20 Something</div>
-</div>
 <div class="col-sm-4">
 <div class="pb-1">Email</div>
 </div>
@@ -103,10 +99,10 @@ $alert = new alert();
 <div class="skills-section px-3 px-lg-4">
 <h2 class="h3 mb-3">Professional Skills</h2>
 <div class="row">
-<div class="col-md-6">
+<div class="col-md-4">
 <div class="mb-2"><span>HTML</span>
 <div class="progress my-1">
-<div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+<div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 95%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 </div>
 <div class="mb-2"><span>CSS</span>
@@ -116,14 +112,14 @@ $alert = new alert();
 </div>
 <div class="mb-2"><span>JavaScript</span>
 <div class="progress my-1">
-<div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+<div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 </div>
 </div>
-<div class="col-md-6">
+<div class="col-md-4">
 <div class="mb-2"><span>PHP</span>
 <div class="progress my-1">
-<div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+<div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 </div>
 <div class="mb-2"><span>MySQL</span>
@@ -131,37 +127,62 @@ $alert = new alert();
 <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 </div>
+<div class="mb-2"><span>Git</span>
+<div class="progress my-1">
+<div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 95%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
 <div class="mb-2"><span>Laravel</span>
 <div class="progress my-1">
-<div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+<div class="progress-bar bg-danger" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+<div class="mb-2"><span>Codeigniter</span>
+<div class="progress my-1">
+<div class="progress-bar bg-danger" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+<div class="mb-2"><span>Reactjs</span>
+<div class="progress my-1">
+<div class="progress-bar bg-danger" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 95%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 </div>
 </div>
 </div>
 </div>
 <hr class="d-print-none" />
-<div class="work-experience-section px-3 px-lg-4">
+<div class="work-experience-section px-3 px-lg-4" id="experience">
 <h2 class="h3 mb-4">Work Experience</h2>
 <div class="timeline">
 <div class="timeline-card timeline-card-primary card shadow-sm">
 <div class="card-body">
-<div class="h5 mb-1">Back End Developer <span class="text-muted h6">at White Creativity</span></div>
+<div class="h5 mb-1">Software Engineer & Instructor <span class="text-muted h6">at White Creativity</span></div>
 <div class="text-muted text-small mb-2">Sept, 2020 - Present</div>
-<div>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</div>
+<div>
+<ul>
+<li>Developed a full-stack web applications, using React that allows users to create and manage their resume, proposals, invoices and receipts. User's details is stored on a back-end created using PHP and MySQL. </li><li> Developed a School Management Application using React, Laravel and MySQL. </li><li> Used HTML5, CSS3, JavaScript and jQuery to build Interactive User Interface (UI), created responsive web pages using react bootstrap framework. </li><li> Worked on Lifecycle Methods, State, Props, and Events to create interactive and stateful React Components, achieved routing using react-router. </li><li> Created class based and function based components, added necessary event listeners. </li><li> Used Git for version Control and Repository </li><li> Used Heroku for DevOps</li>
+</ul>
+</div>
 </div>
 </div>
 <div class="timeline-card timeline-card-primary card shadow-sm">
 <div class="card-body">
-<div class="h5 mb-1">Back End Developer <span class="text-muted h6">at Spatrum Creative Agency</span></div>
-<div class="text-muted text-small mb-2">Nov, 2017 - Feb, 2019</div>
-<div>Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</div>
+<div class="h5 mb-1">Web Developer <span class="text-muted h6">at Spatrum Creative Agency</span></div>
+<div class="text-muted text-small mb-2">Sep, 2017 - Feb, 2019</div>
+<div>
+<ul><li> Involved in requirements analysis, understand the requirements of each technical part. </li><li> Actively participated in meetings with clients to determine website goals and development strategies. </li><li> Developed a Multi Vendor E-Commerce Application, it was built using Codeigniter and MySQL. </li><li> Developed a School Management Application using Codeigniter and MySQL. </li><li> Used Git for version Control and Repository</li></ul>
+</div>
 </div>
 </div>
 <div class="timeline-card timeline-card-primary card shadow-sm">
 <div class="card-body">
 <div class="h5 mb-1">Intern <span class="text-muted h6">at White Creativity</span></div>
-<div class="text-muted text-small mb-2">April, 2017 - Sept, 2017</div>
-<div>Six Months Compulsory Student Industrial Work Experience, Learnt Web Development as well as graphics design</div>
+<div class="text-muted text-small mb-2">Apr, 2017 - Sep, 2017</div>
+<div><ul>
+      <li>Was taught Web Development, Version Control Using Git and graphics design. </li><li> Delivered clerical support by handling range of routine and special requirements. </li><li> Helped with administrative support, including managing incoming calls, coordinating files and sorting mail. </li><li> Achieved management recognition by designing and implementing special project during internship. </li><li> Contributed to content creation for company website. </li><li> Worked on projects using knowledge gained in classes to put together recommendations for issues. </li><li> Sorted and organized files, spreadsheets and reports. Interacted with customers by phone, email or in-person to provide information.</li>
+</ul></div>
 </div>
 </div>
 </div>
@@ -175,7 +196,7 @@ $alert = new alert();
 <div class="card-body">
 <div class="h5 mb-1">Bachelor of Computer Science <span class="text-muted h6">from Rivers State University</span></div>
 <div class="text-muted text-small mb-2">2014 - 2018</div>
-<div>A Bachelor of Science Degree from Rivers State University with a Second Class Upper</div>
+<div>A Bachelor of Science Degree from Rivers State University</div>
 </div>
 </div>
 
@@ -193,9 +214,102 @@ $alert = new alert();
 <div>Virtual Internship</div>
 </div>
 </div>
+</div>
+</div>
 
+<hr class="d-print-none" />
+<div class="page-break"></div>
+<div class="education-section px-3 px-lg-4 pb-4">
+<h2 class="h3 mb-4">Git Stats</h2>
+      <div class="row">
+            <div class="col-md-7" style="height: 198px;">
+                  <iframe src="https://github-readme-stats.vercel.app/api?username=alabogift&count_private=true&show_icons=true&theme=radical&layout=compact)](https://github.com/alabogift/github-readme-stats)" style="width:100%; height: 100%; border: 0; overflow: hidden;" scrolling= "no" frameborder="0"></iframe>
+            </div>
+            <div class="col-md-5" style="height: 198px;">
+                  <iframe src="https://github-readme-stats.vercel.app/api/top-langs/?username=alabogift&count_private=true&show_icons=true&theme=radical&layout=compact)](https://github.com/alabogift/github-readme-stats)" style="width:100%; height: 100%; border: 0; overflow: hidden;" scrolling= "no" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0"></iframe>
+            </div>
+
+
+      </div>
 </div>
+
+<hr class="d-print-none" />
+<div class="page-break"></div>
+<div class="education-section px-3 px-lg-4 pb-4" id="portfolio">
+<h2 class="h3 mb-4">Portfolio</h2>
+      <div class="row">
+            <div class="col-md-4 mt-2">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/gubd.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">New World Journals</h5>
+                      <small class="card-text">New World Journals is a home for all premium quality institutional (university) based academic journals round the globe. </small><br>
+                      <a href="http://gubdjournals.org/"  target="_blank" class="btn btn-primary btn-sm mt-2">Visit</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4 mt-2">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/learn.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Learnstressfree</h5>
+                      <small class="card-text">Learnstressfree helps you prepare for various exams, by providing you with quality tutorials</small><br>
+                      <a href="https://learnstressfree.com"  target="_blank" class="btn btn-primary btn-sm mt-2">Visit</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4 mt-2">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/shop.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">The Mobile Shop ng</h5>
+                      <small class="card-text">Online fashion retail shop based in Port Harcourt City, which deals on premium sneakers, shirts, gowns etc known for quality service delivery</small><br>
+                      <a href="https://themobileshop.com.ng/"  target="_blank" class="btn btn-primary btn-sm mt-2">Visit</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4 mt-2">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/white.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">White Creativity</h5>
+                      <small class="card-text">Corporate website of White Creativity Ltd including a sign in & sign up feature for administrative management</small><br>
+                      <a href="https://whitecreativity.com"  target="_blank" class="btn btn-primary btn-sm mt-2">Visit</a>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="col-md-4 mt-2">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/light.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Light of God Stores</h5>
+                      <small class="card-text">Online christian book shop where users can purshase christian literatures at affordable prices</small><br>
+                      <a href="https://www.lightofgodstores.com/"  target="_blank" class="btn btn-primary btn-sm mt-2">Visit</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4 mt-2">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/docs.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">SwitDocs</h5>
+                      <small class="card-text">Application that allows users to create and manage their resume, proposals, invoices and receipts. U</small><br>
+                      <a href="https://switdocs.whitecreativity.com"  target="_blank" class="btn btn-primary btn-sm mt-2">Visit</a>
+                    </div>
+                  </div>
+            </div>
+
+
+      </div>
 </div>
+
+
 
 <hr class="d-print-none" />
 <div class="contant-section px-3 px-lg-4 pb-4" id="contact">
